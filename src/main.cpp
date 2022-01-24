@@ -51,7 +51,8 @@ void loop()
     for ( e = 0; e <8; e++)
     {
       /* code */
-      digitalWrite(e+3,numero[ramdomNumber][e]);
+      digitalWrite(e+3,numero[ramdomNumber][e]); 
+      //ahhh
     }
     _delay_ms(TIEMPO);
   }
