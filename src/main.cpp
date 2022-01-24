@@ -21,7 +21,7 @@ byte numero [10][8]=
 
 void setup()
 {
-  // put your setup code here, to run once:
+  // put your setup code here, to run once: 
   // Iniciamos el monitor serie
   Serial.begin(9600);
   // Ponemos los pines de los segmentos en modo OUTPUT (salida)
