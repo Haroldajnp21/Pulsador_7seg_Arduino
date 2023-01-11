@@ -1,7 +1,8 @@
 #include <Arduino.h>
 // DISPLAY 7 SEGMENTOS CON ARDUINO 
 /*CONSTANTES PARA LOS PUERTOS*/
-#define PULSASOR 10
+#define PULSASOR 10    //puerto PIN10 del arduino 
+//enteros
 int i;
 int e;
 #define TIEMPO 500
@@ -25,11 +26,11 @@ void setup()
   // Iniciamos el monitor serie
   Serial.begin(9600);
   // Ponemos los pines de los segmentos en modo OUTPUT (salida)
-  for ( i = 2; i < 10; i++)
-  {
+   for ( i = 2; i < 10; i++)
+   {
     /* code */
-    pinMode(i,OUTPUT);
-  }
+      pinMode(i,OUTPUT);
+   }
   // Ponemos el pin del pulsador en modo INPUT (entradda)
     pinMode(PULSASOR, INPUT);
  
